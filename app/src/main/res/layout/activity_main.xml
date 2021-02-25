@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Loyout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:foregroundTint="#FF1F1F"
+    android:textAlignment="center"
+    android:textDirection="inherit"
+    android:verticalScrollbarPosition="defaultPosition"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+    <TextView
+        android:id="@+id/zadanie"
+        style="@style/Widget.MaterialComponents.TextView"
+        android:layout_width="228dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="47dp"
+        android:text="Сколько игроков?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFD91A"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/made"
+        android:layout_width="223dp"
+        android:layout_height="31dp"
+        android:breakStrategy="simple"
+        android:drawableTint="#B81C1C"
+        android:foregroundTint="#FF0000"
+        android:text="Made by Sanchezzz"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#2FF8F3F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="243dp"
+        android:layout_height="239dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginBottom="221dp"
+        app:layout_constraintBottom_toTopOf="@+id/made"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/one"
+            style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/ic_delete"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:text="Трое"
+            android:textColor="#2196F3"
+            android:textColorHighlight="#FF0B0B"
+            android:textColorHint="#FD0000"
+            android:textColorLink="#FA0202"
+            android:textSize="27sp"
+            app:useMaterialThemeColors="false" />
+
+        <RadioButton
+            android:id="@+id/one2"
+            style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/ic_delete"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:text="Четверо"
+            android:textColor="#2196F3"
+            android:textColorHighlight="#FF0B0B"
+            android:textColorHint="#FD0000"
+            android:textColorLink="#FA0202"
+            android:textSize="27sp"
+            app:useMaterialThemeColors="false" />
+
+        <RadioButton
+            android:id="@+id/one3"
+            style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/ic_delete"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:text="Пятеро"
+            android:textColor="#2196F3"
+            android:textColorHighlight="#FF0B0B"
+            android:textColorHint="#FD0000"
+            android:textColorLink="#FA0202"
+            android:textSize="27sp"
+            app:useMaterialThemeColors="false" />
+
+        <RadioButton
+            android:id="@+id/one4"
+            style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/ic_delete"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:text="Шестеро"
+            android:textColor="#2196F3"
+            android:textColorHighlight="#FF0B0B"
+            android:textColorHint="#FD0000"
+            android:textColorLink="#FA0202"
+            android:textSize="27sp"
+            app:useMaterialThemeColors="false" />
+
+        <RadioButton
+            android:id="@+id/one5"
+            style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/ic_delete"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:text="Семеро"
+            android:textColor="#2196F3"
+            android:textColorHighlight="#FF0B0B"
+            android:textColorHint="#FD0000"
+            android:textColorLink="#FA0202"
+            android:textSize="27sp"
+            app:useMaterialThemeColors="false" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
